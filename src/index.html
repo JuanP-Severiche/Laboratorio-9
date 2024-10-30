@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP AUTOS - Venta de Autos</title>
+    <style>
+
+        header {
+            background-color: #000000;
+            color: #ffffff;
+            text-align: center;
+            padding: 1.5rem;
+            position: relative;
+        }
+
+        header img {
+            position: absolute;
+            left: 40px;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 70px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #7e8892;
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 1rem 1.5rem;
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #1ABC9C;
+        }
+
+        .autos-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 1rem;
+            padding: 1rem;
+            width: 40%;
+            text-align: center;
+        }
+
+        .container h2 {
+            color: #333;
+            font-size: 1.5rem;
+        }
+
+        .container p {
+            color: #666;
+            font-size: 1rem;
+        }
+
+        .container img {
+            width: 100%;
+            height: auto;
+            border-radius: 4px;
+            margin-top: 0.8rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 900px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #home {
+            background-color: #f2f2f2;
+        }
+
+        #about {
+            background-color: #e8f4f8;
+        }
+
+        #inventory {
+            background-color: #f9f9f9;
+        }
+
+        section h2 {
+            color: #333;
+            font-size: 1.8rem;
+            margin-bottom: 0.5rem;
+        }
+
+        section p {
+            color: #555;
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        footer {
+            background-color: #34495E;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/Logo.jpeg" alt="Logo de JP Autos" width="80" height="190">
+        <h1>Bienvenidos a JP AUTOS🏁</h1>
+        <p>La mejor selección de autos nuevos y usados en COLOMBIA</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Acerca de Nosotros</a></li>
+            <li><a href="#inventory">Inventario</a></li>
+            <li><a href="https://www.instagram.com/jpautosyseguros/profilecard/?igsh=OWthOGdnMGtvY2w0" target="_blank">Contáctanos</a></li>
+        </ul>
+    </nav>
+
+    <div class="autos-section">
+        <div class="container">
+            <h2>NUESTROS AUTOS NUEVOS🏴</h2>
+            <p>Descubre nuestros autos nuevos con las últimas innovaciones y tecnología.</p>
+            <img src="img/Porsche 911 GT3.jpg" alt="Autos nuevos">
+        </div>
+        <div class="container">
+            <h2>AUTOS USADOS EN EXCELENTE ESTADO🏳️</h2>
+            <p>Autos de segunda mano revisados y garantizados, con precios accesibles y financiamiento disponible.</p>
+            <img src="img/Toyota Land Cruiser.jpg" alt="Autos usados">
+        </div>
+    </div>
+
+    <section id="home">
+        <h2>Inicio</h2>
+        <p>Bienvenidos a JP Autos, donde te ofrecemos los mejores vehículos nuevos y usados en el mercado colombiano. Con nuestra experiencia y compromiso, estamos aquí para ayudarte a encontrar el auto ideal para ti.</p>
+    </section>
+
+    <section id="about">
+        <h2>Acerca de Nosotros</h2>
+        <p>En JP Autos, nos enorgullece ofrecer una experiencia de compra transparente y confiable. Nuestra empresa ha sido un referente en el sector automotriz colombiano, destacándose por el servicio al cliente, la calidad de nuestros vehículos y la asesoría personalizada. Nos aseguramos de que cada cliente encuentre exactamente lo que necesita, adaptándonos a su presupuesto y preferencias.</p>
+    </section>
+
+    <section id="inventory">
+        <h2>Inventario</h2>
+        <p>Descubre nuestro amplio inventario de autos de todas las gamas. Ofrecemos vehículos nuevos con las últimas innovaciones, así como autos usados en excelente estado, revisados minuciosamente para garantizar su calidad y rendimiento. ¡Visita nuestra sección de inventario y encuentra el auto perfecto para ti!</p>
+    </section>
+
+    <footer>
+        <p>Contacto: juanpiseveriche11@gmail.com | Tel: +57 300 304 2711</p>
+        <p>© 2024 JP Autos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
